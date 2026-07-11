@@ -1,31 +1,19 @@
-# BahMan Website
+# BahMan Website v2
 
-Premium static personal-training website for GitHub Pages.
+Updated with:
 
-## Upload to GitHub
+- real portrait
+- real WhatsApp: +971 54 215 2262
+- real Instagram: @bahman_actn_live
+- real email: bahramjorayev374@gmail.com
+- short action video
+- responsive mobile and desktop design
 
-Upload these items to the root of the `BahMan` repository:
+## Upload
 
-- `index.html`
-- `styles.css`
-- `script.js`
-- the complete `assets` folder
+Upload all files and the complete `assets` folder to the root of the GitHub repository.
 
-GitHub Pages should be configured as:
+When GitHub asks whether to replace existing files, replace them.
 
-- Source: Deploy from a branch
-- Branch: main
-- Folder: /(root)
-
-## Important edits
-
-Open `index.html` and replace:
-
-- `971000000000` with the real WhatsApp number in international format
-- `+971 00 000 0000` with the displayed phone number
-- Instagram URL/handle if needed
-- Email address if needed
-
-The site URL will be:
-
-`https://bahmancoach.github.io/BahMan/`
+Site:
+https://bahmancoach.github.io/BahMan/
