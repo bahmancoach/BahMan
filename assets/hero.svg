@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 900">
+  <defs>
+    <linearGradient id="skin" x1="0" x2="1">
+      <stop offset="0" stop-color="#21160e"/>
+      <stop offset=".45" stop-color="#c28e5d"/>
+      <stop offset=".7" stop-color="#5f402a"/>
+      <stop offset="1" stop-color="#17110d"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" x2="1">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset=".55" stop-color="#181818"/>
+      <stop offset="1" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#f0d783"/>
+      <stop offset="1" stop-color="#b88b31"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <g opacity=".28" fill="none" stroke="#d9b85f">
+    <path d="M30 780L110 720 160 760 250 670 310 735 390 650 470 720 540 600 670 780"/>
+    <path d="M430 780V520h42v260M520 780V440h48v340M590 780V330h38v450"/>
+  </g>
+
+  <ellipse cx="360" cy="820" rx="255" ry="35" fill="#000" opacity=".7"/>
+  <path d="M260 180c20-95 176-100 202 6l-13 69-36 43-99-3-45-47z" fill="url(#skin)"/>
+  <path d="M250 185c28-102 205-108 226 5l-18 25-198 2z" fill="#080808"/>
+  <path d="M275 155c48-46 139-53 181 5l-20 13-143 1z" fill="#111"/>
+  <path d="M308 267c28 30 76 30 108 0l-9 51c-6 28-83 27-89 0z" fill="#4b2f1e"/>
+
+  <path d="M250 300c-74 28-120 101-138 204l-36 211c-7 49 56 68 75 24l53-174 56 242h191l55-244 54 176c17 47 82 25 74-22l-38-215c-20-108-67-177-142-202-28 27-70 42-92 42s-66-15-92-42z" fill="url(#skin)"/>
+  <path d="M240 325c34-14 70-22 110-23 42 1 79 9 115 24l-31 410-176 0z" fill="url(#shirt)"/>
+  <path d="M301 360c31 24 91 25 124 0l-12 58c-38 22-75 21-110 0z" fill="#0c0c0c"/>
+
+  <g fill="url(#gold)" filter="url(#glow)">
+    <path d="M322 435l10-18 12 13 14-16 13 16 12-13 10 18-12 1-11-5-12 6-12-6-12 5z"/>
+    <text x="358" y="500" text-anchor="middle" font-family="Arial Black, Arial" font-size="55" letter-spacing="-5">BHM</text>
+    <text x="362" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" letter-spacing="5">BAHMAN</text>
+  </g>
+
+  <path d="M205 555c-46 44-67 104-72 172 10 15 31 17 43 3l67-147z" fill="#1b120d" opacity=".55"/>
+  <path d="M515 553c47 45 69 107 73 174-10 15-31 17-43 3l-67-147z" fill="#1b120d" opacity=".55"/>
+  <path d="M265 736h183l35 125H229z" fill="#090909"/>
+</svg>
